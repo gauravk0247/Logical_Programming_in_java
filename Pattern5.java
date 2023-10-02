@@ -1,3 +1,11 @@
+// Q. print the following pattern
+
+/*5 
+4 5 
+3 4 5
+2 3 4 5
+1 2 3 4 5*/
+
 public class Pattern5 {
     public static void main(String[] args) {
         int i, j;
@@ -6,7 +14,6 @@ public class Pattern5 {
                 System.out.print(j+" ");
             }
             System.out.println();
-            // j=j+1;
         }
     }
     
